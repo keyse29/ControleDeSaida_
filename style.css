@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: rgb(238, 237, 235);
+    color: #333;
+
+}
+
+nav {
+    background-color: #005b96;
+    padding: 10px 20px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ffdd57;
+}
+
+
+h1 {
+    text-align: center;
+    color: #0f479ce5;
+    margin-bottom: 20px;
+
+}
+
+
+div {
+    background-color: #ffffff;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+div h2,input{
+    color: #003f6b;
+    text-align: center;
+    border-radius: 2px;
+}
+
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: 500;
+    color: #444;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="time"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    transition: border-color 0.3s;
+}
+
+input:focus {
+    border-color: #005b96;
+    outline: none;
+}
+
+/* Botão */
+button {
+    margin-top: 20px;
+    width: 100%;
+    padding: 12px;
+    background-color: #005b96;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #003f6b;
+}
+
+main {
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main button {
+    width: 100%;
+    margin: 10px 0;
+}
+
+main a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo{
+    text-align: start;
+    margin-bottom: 50px;
+    border-color: #003f6b;
+    background-color: #003f6b;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    
+}
+
+img {
+    width: 250px;
+    height: 150px;
+    padding: 2px;
+    border-radius: 10px;
+    margin-top: 10px;
+
+
+}
+
+header h1{
+text-align: center;
+margin-bottom: 2px;
+color: white;
+}
+
+
+
+
+

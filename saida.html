@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="saida.js" defer></script>
+    <title>Cadastrar Saida</title>
+</head>
+<body>
+    <nav>
+        <a href="./index.html">Principal</a>
+        <a href="./saida.html">Cadastrar</a>
+        <a href="./listar_saida.html">Listar</a>
+        <a href="./consultar_saida.html">Consultar</a>
+        <a href="./atualizar_saida.html">Atualizar</a>
+        <a href="./apagar_saida.html">Apagar</a>
+    </nav>
+
+    <div>
+        <h1>Cadastro Saida</h1><br>
+
+        <label for="dataSolicitacao">Selecione a data de solicitação: </label><br>
+        <input type="date" id="dataSolicitacao"><br>
+
+        <label for="horaSaida">Selecione a hora da saida: </label><br>
+        <input type="time" id="horaSaida"><br>
+
+        <label for="horaRetorno">Selecione a hora do retorno: </label><br>
+        <input type="time" id="horaRetorno"><br>
+
+        <label for="motivo">Descreva o motivo da Saida: </label><br>
+        <input type="text" id="motivo" placeholder="Qual o motivo da saida?.."><br>
+
+        <label for="localDestino">Digite o Destino: </label><br>
+        <input type="text" id="localDestino" placeholder="digite o destino.."><br>
+
+        <label for="status"> Digite o status: </label><br>
+        <input type="text" id="status" placeholder="digite o status.."><br>
+
+        <label for="nomeAluno">Digite o nome do aluno: </label><br>
+        <input type="text" id="nomeAluno" placeholder="nome do aluno..."><br>
+
+        <label for="aluno_cod">Digite o Código do Aluno: </label>
+        <input type="text" id="aluno_cod" placeholder="digite o id...">
+
+        <label for="nomeProfessor">Digite o nome do professor: </label><br>
+        <input type="text" id="nomeProfessor" placeholder="nome do professor..."><br>
+
+        <label for="professor_cod">Digite o Codigo do professor: </label>
+        <input type="text" id="professor_cod" placeholder="digite o id...">
+
+        <button id="cadastrar">Cadastrar Saida</button><br>
+
+        <div id="res"></div>
+
+    </div>
+
+</body>
+</html>

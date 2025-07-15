@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="atualizar_prof.js" defer></script>
+    <title>Atualizar Professor</title>
+</head>
+<body>
+    <nav>
+        <a href="./index.html">Principal</a>
+        <a href="./professor.html">Cadastrar</a>
+        <a href="./listar_prof.html">Listar</a>
+        <a href="./consultar_prof.html">Consultar</a>
+        <a href="./atualizar_prof.html">Atualizar</a>
+        <a href="./apagar_prof.html">Apagar</a>
+    </nav>
+
+    <div>
+        <h2>Atualizar Professor</h2><br />
+
+        <label for="id">Digite o Id do professor: </label><br />
+        <input type="text" id="id" placeholder="digite o código..." /><br />
+
+        <button id="buscar">Buscar</button><br /><br />
+
+        <label for="nome">Digite o nome do professor: </label><br />
+        <input type="text" id="nome" placeholder="digite o nome..." /><br />
+
+        <label for="sobrenome">Digite o sobrenome do professor: </label><br />
+        <input type="text" id="sobrenome" placeholder="digite o sobrenome..." /><br />
+
+        <label for="matricula">Digite o código da matrícula: </label><br />
+        <input type="text" id="matricula" placeholder="código da matrícula..." /><br />
+
+        <label for="telefone">Digite o telefone do professor: </label><br />
+        <input type="text" id="telefone" placeholder="digite o telefone..." /><br />
+
+        <label for="email">Digite o email do professor: </label><br />
+        <input type="text" id="email" placeholder="@gmail.com..." /><br /><br />
+
+        <button id="atualizar">Atualizar</button>
+
+        <div id="res"></div>
+    </div>
+</body>
+</html>
