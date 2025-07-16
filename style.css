@@ -25,7 +25,7 @@ nav {
     background-color: #003f6b;
     width: 300px;
     text-align: center;
-    font-family: tahoma ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 20px;
     border-radius: 9px;
 }
@@ -92,7 +92,6 @@ input:focus {
     outline: none;
 }
 
-/* Botão */
 button {
     margin-top: 20px;
     width: 100%;
