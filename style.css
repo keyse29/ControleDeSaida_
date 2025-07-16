@@ -13,7 +13,7 @@ body {
 
 nav {
     background-color: #005b96;
-    padding: 10px 20px;
+    padding: 20px 20px;
     display: flex;
     gap: 20px;
     justify-content: center;
@@ -21,12 +21,22 @@ nav {
     margin-bottom: 30px;
 }
 
+.links {
+    background-color: #003f6b;
+    width: 300px;
+    text-align: center;
+    font-family: tahoma ;
+    padding: 20px;
+    border-radius: 9px;
+}
+
+
 nav a {
     color: #ffffff;
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s;
-}
+    }
 
 nav a:hover {
     color: #ffdd57;
